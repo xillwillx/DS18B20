@@ -6,7 +6,9 @@ You will need to setup the pi to add OneWire support
 Start by adding the following line to /boot/config.txt
 You can edit that file with nano by running ```sudo nano /boot/config.txt``` and then scroll to the bottom and type ```dtoverlay=w1-gpio```
  press ctrl+x and y to confirm, ```sudo nano vi /etc/modules``` add 
+
 w1-gpio
+
 w1-therm 
 
 press ctrl+x and y to confirm , then reboot your pi
