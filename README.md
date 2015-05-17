@@ -11,7 +11,7 @@ w1-gpio
 
 w1-therm 
 
-press ctrl+x and y to confirm , then reboot your pi
+press ctrl+x and y to confirm , then reboot your pi. Add temp.php to /var/www/ then visit http://127.0.0.1/temp.php
 
 Page output should look similar to this:
 ```
