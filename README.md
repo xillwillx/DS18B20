@@ -8,7 +8,7 @@ You can edit that file with nano by running `sudo nano /boot/config.txt` and the
 
 `dtoverlay=w1-gpio`
 
- press ctrl+x and y to confirm, then `sudo nano vi /etc/modules` add the following 2 lines to the bottom:
+ press ctrl+x and y to confirm, then `sudo nano /etc/modules` add the following 2 lines to the bottom:
 
 `w1-gpio`
 
